@@ -12,5 +12,5 @@ class EmailParser
     @email_parser = email_parser.scan(/\w+@\w+.\w+/)
     @email_parser.uniq
   end
-  
+
 end
